@@ -1,32 +1,8 @@
-<<<<<<< HEAD
 # AngularBlog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+Project made utilizing Angular and Typescript to make a simple Blog with Dynamic input. 
 
-## Development server
+## Features
+The blog features two pages, a home page and a content page, in the home page you see the title of the blog, a big card with title and short description, and a series of small cards with titles. Clicking on any of those titles or descriptions lead to the content page display the card, title and description of the chosen article.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# angular-blog
-A little blog made with Angular.
->>>>>>> f742685b87b4c63e3ce686651008f2b833e4bdfd
+All the data for the articles can be found in src/app/data/dataFake. Changing the data there will affect the articles.
